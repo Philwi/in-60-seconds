@@ -111,6 +111,8 @@ jeder Bereich enthält den entsprechenden Code-Type
 ---
 ## Single File Components
 
++++
+### Was wird abgedeckt?
 können genutzt werden um kleine Funktionalitäten zu erstellen 
 
 ---
