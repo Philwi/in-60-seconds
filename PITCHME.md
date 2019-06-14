@@ -1,4 +1,4 @@
-# VueJS vs React (vs Matestack)
+## VueJS vs React (vs Matestack)
 
 ---
 
