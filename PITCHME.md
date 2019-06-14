@@ -1,13 +1,19 @@
-# Let's Get Started
+# VueJS vs React (vs Matestack)
 
 ---
 
-## Add Some Slide Candy
+## Inhalt des Vergleich
 
-![](assets/img/presentation.png)
-
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Customize Slide Layout]
+* Lernkurve
+* Code Style
+* Single File Components
+* Performance
+* Flexibilität
+* "Gems"
+* Mobile
+* Community
+* Maturity
+* Support
 
 @snap[west span-50]
 ## Customize the Layout
