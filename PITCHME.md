@@ -112,8 +112,36 @@ jeder Bereich enthält den entsprechenden Code-Type
 ## Single File Components
 
 +++
-layout : top-left
-### Was wird abgedeckt?
-Components können genutzt werden um kleine Funktionalitäten zu erstellen 
+Components können genutzt werden um gekapselte Funktionalitäten zu erstellen 
 
++++
+Components können in andere Components geladen werden und verhalten sich wie Partials
+
++++
+Mit Vue Router können Seitenaufrufe gehandelt werden
+
++++
+```
+router-view
+```
+ermöglicht es die Components zu rendern.
++++
+Im route.js werden die Routes deklariert
+```
+export const routes = [
+  { path: '/dashboard', component: Dashboard, children: [
+    { path: '/dashboard/posts/index', component: Posts },
+  ]},
+];
+```
+
++++
+Die Child-Component Posts wird im Dashboard mit 
+```
+router-view
+```
+wiederum geladen
++++
+Es kann mehrere Child-Components geben. Diese können wiederum Child-Components besitzen
+ 
 ---
