@@ -112,7 +112,8 @@ jeder Bereich enthält den entsprechenden Code-Type
 ## Single File Components
 
 +++
+layout : top-left
 ### Was wird abgedeckt?
-können genutzt werden um kleine Funktionalitäten zu erstellen 
+Components können genutzt werden um kleine Funktionalitäten zu erstellen 
 
 ---
