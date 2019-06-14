@@ -108,16 +108,12 @@ jeder Bereich enthält den entsprechenden Code-Type
 * weniger Plugins und Tools als bei React oder Angular
 * kleinere Community
 
+---
+## Single File Components
+
+können genutzt werden um kleine Funktionalitäten zu erstellen 
 
 ---
-## Single Page Applications mit VueJS
-
-* Um SPAs mit VueJS zu bauen, wird Vue Router benötigt
-* Dieser befähigt es, unterschiedliche Components aufzurufen
-* Dadurch können Components die Rolle von Partials einnehmen und mehrere auf einer Seite gleichzeitig gerendert werden
-
-
-
 ## Customize the Layout
 @snapend
 
