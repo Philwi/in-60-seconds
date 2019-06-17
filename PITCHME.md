@@ -52,35 +52,12 @@ Komponenten-Lifecycle ist klar und intuitiv
 ## Single File Components
 
 Single File Components sind in 3 Bereiche separiert:
+```
+<template>, <script> und <style>
+```
 jeder Bereich enthält den entsprechenden Code-Type
 
-+++
-
-@snap[north span-40 text-center]
-
-### <template>
-
-@snapend
-
-@snap[west span-40 text-center]
-```
-<template lang="pug">
-#app
-  template(v-for="item in items")
-    v-img(:src='item.image', height='200px')
-      .headline {{ item.count }} {{ item.headline }}
-        span.grey--text {{ item.subHeadline }}
-</template>
-```
-@snapend
-
-@snap[east span-40 text-center]
-pug Templates analog zu slim
-Two-Way Data Binding
-@snapend
-
-+++
-
+---
 ### <script>
 @snap[west span-40 text-center]
 ```
