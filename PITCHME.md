@@ -143,5 +143,7 @@ router-view
 wiederum geladen
 +++
 Es kann mehrere Child-Components geben. Diese können wiederum Child-Components besitzen
++++
+Um den State einer App handhaben zu können, wird Vuex genutzt
  
 ---
