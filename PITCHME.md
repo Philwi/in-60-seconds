@@ -3,33 +3,47 @@
 ---
 
 ## Inhalt
+@snap[west span-40 text-center]
 
 * Lernkurve
 * Code Style
 * Single File Components
 * Performance
 * Flexibilität
+
+@snapend
+
+@snap[east span-40 text-center]
+
 * Mobile
 * Community
 * Wie erwachsen ist VueJS
 * Support
 
+@snapend
+
 ---
 
 ## Lernkurve
-alles noch kürzer verfassen, da nur 15 mins Zeit
 
-* Vue hat sich einige Konzepte von Angular und React angeeignet
-* Die Lernkurve für Entwickler die bereits React oder Angular kennen ist dadurch einfacher
-* Die Dokumentation ist gut geschrieben und deckt alles ab, worüber Entwickler bei der Entwicklung von Vue-Apps stolpern könnte
-* Vue ist klarer definiert als React, dadurch ergibt sich, dass viele Fragen bereits in der Dokumentation beantwortet werden und man keine anderen Stellen nach Antworten suchen muss
+* Bewährte Konzepte wurden von React und Angular angeeignet
+* Für Entwickler mit Erfahrungen in React oder Angular dadurch schnell erlernbar
+
++++
+
+## Lernkurve
+
+* Gute Dokumentation
+* Doku ist klarer definiert als bei React
+* Viele Fragen lassen sich anhand der Doku schnell beantworten
 
 ---
 ## Code Style
 
-* Vue hat die guten Dinge aus React und Angular extrahiert und bietet einen Mix aus funktionaler und objektorientierter Programmierung an
-* Vue separiert HTML, JS und CSS. Bietet jedoch auch den JSX style an
-* Der Komponenten-Lifecycle ist klarer und intuitiver als in React
+* Mix aus funktionaler und objektorientierter Programmierung
+* separiert HTML, JS und CSS. 
+* Bietet auch JSX-Style an
+* Komponenten-Lifecycle ist klar und intuitiv
 
 ---
 ## Single File Components
