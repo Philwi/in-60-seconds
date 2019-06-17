@@ -57,7 +57,33 @@ Single File Components sind in 3 Bereiche separiert:
 ```
 jeder Bereich enthält den entsprechenden Code-Type
 
----
++++
+
+@snap[north span-40]
+
+### <template>
+
+@snapend
+
+@snap[west span-40 text-center]
+```
+<template lang="pug">
+#app
+  template(v-for="item in items")
+    v-img(:src='item.image', height='200px')
+      .headline {{ item.count }} {{ item.headline }}
+        span.grey--text {{ item.subHeadline }}
+</template>
+```
+@snapend
+
+@snap[east span-40 text-center]
+pug Templates analog zu slim
+Two-Way Data Binding
+@snapend
+
++++
+
 ### <script>
 @snap[west span-40 text-center]
 ```
@@ -104,13 +130,20 @@ dazu gibt es noch weitere Direktiven wie ``` watch(), computed() ```
 
 @snap[east span-40 text-center]
 Im Style der Komponente wird das CSS hinterlegt
-durch ``` <style lang="scss"> ``` können Stylesheet Scripte festgelegt und benutzt werden
+durch ``` <style lang="scss"> ``` kann man  
 @snapend
+
 ---
+
 ## Performance
 
-* Größe der Vue-Bibliothek: 31KB
-* Vue wurde so konzipiert, blablablabal
+@snap[west span-40 text-center]
+Größe der Vue-Bibliothek: 31KB
+@snapend
+
+@snap[east span-40 text-center]
+![Performance](assets/img/performance.jpg)
+@snapend
 
 ---
 ## Flexibilität
