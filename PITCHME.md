@@ -144,7 +144,7 @@ Größe der Vue-Bibliothek: 31KB
 @snapend
 
 @snap[east span-40 text-center]
-![Performance](assets/img/performance.png?size=80% auto)
+![Performance](assets/img/performance.png)
 @snapend
 
 ---
