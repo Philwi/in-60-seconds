@@ -198,7 +198,7 @@ wachsende Zahlen in relevanten Feldern
 
 ### Github Stars History
 
-.image ![Github](assets/img/github.png) { height: 500px !important; }
+![Github](assets/img/github.png) { height: 500px !important; }
 
 +++
 
