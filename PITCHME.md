@@ -58,24 +58,30 @@ Single File Components sind in 3 Bereiche separiert:
 
 jeder Bereich enthält den entsprechenden Code-Type
 
----
++++
 
 ### <template>
-
+@snap[west span-40 text-center]
 ```pug
+  <template lang="pug">
   #app
     template(v-for="item in items")
       v-img(:src='item.image', height='200px')
         .headline {{ item.count }} {{ item.headline }}
           span.grey--text {{ item.subHeadline }}
+  </template>
 ```
+@snapend
 
+@snap[east span-40 text-center]
 pug Templates analog zu slim
 Two-Way Data Binding
+@snapend
 
 +++
 
 ### <script>
+@snap[west span-40 text-center]
 ```javascript
 <script>
 export default {
@@ -94,17 +100,30 @@ export default {
 }
 </script>
 ```
+@snapend
+
+@snap[east span-40 text-center]
+
+
+@snapend
+
 
 +++
 
+@snap[north span-40 text-center]
 ## <style>
+@snapend
 
+@snap[west span-40 text-center]
 ```
 <style>
 ```
+@snapend
 
+@snap[east span-40 text-center]
 Im Style der Komponente wird das CSS hinterlegt
 durch ``` <style lang="scss"> ``` kann man  
+@snapend
 
 ---
 
@@ -119,13 +138,32 @@ Größe der Vue-Bibliothek: 31KB
 @snapend
 
 ---
+
 ## Flexibilität
 
-* In der Core Bibliothek von Vue sind die fundamentalen Features um eine App zu bauen integriert.
-* Darüber hinaus gibt es einige Erweiterungen, die einfach installiert sind z.B.
-  * Vuex für das State-Management
-  * Vue Router für das URL-Management innerhalb der App
-  * Vue Server-Side Renderer
+Im Core sind die wichtigsten Bestandteile bereits integriert
+Darüber hinaus gibt es einige sinnvolle Erweiterungen
+
++++
+### Vuex für das State-Management
+
+Es gibt einen zentralen Store
+```javascript
+const store = new Vuex.Store({
+  state: {
+    count: 0
+  },
+  mutations: {
+    increment (state) {
+      state.count++
+    }
+  }
+})
+```
++++
+### Vue Router für das URL-Management innerhalb der App
++++
+### Vue Server-Side Renderer
 ---
 
 ## Mobile
