@@ -6,7 +6,7 @@
 ## Inhalt
 @snapend
 
-@snap[west span-40 text-center]
+@snap[west span-40 text-center ul]
 
 * Lernkurve
 * Code Style
