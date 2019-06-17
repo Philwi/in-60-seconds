@@ -111,10 +111,6 @@ export default {
 
 @snap[east span-40 text-center]
 
-verschiedene Hooks wie ``` created(), mounted(), destroyed() ```
-andere Components können integriert werden
-Methoden werden deklariert
-dazu gibt es noch weitere Direktiven wie ``` watch(), computed() ```
 
 @snapend
 
