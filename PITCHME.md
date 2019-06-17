@@ -52,12 +52,9 @@ Komponenten-Lifecycle ist klar und intuitiv
 ## Single File Components
 
 Single File Components sind in 3 Bereiche separiert:
-```
-<template>, <script> und <style>
-```
 jeder Bereich enthält den entsprechenden Code-Type
 
----
++++
 
 @snap[north span-40 text-center]
 
