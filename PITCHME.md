@@ -29,35 +29,91 @@ Support
 
 ## Lernkurve
 
-* Bewährte Konzepte wurden von React und Angular angeeignet
-* Für Entwickler mit Erfahrungen in React oder Angular dadurch schnell erlernbar
+Bewährte Konzepte wurden von React und Angular angeeignet
+Für Entwickler mit Erfahrungen in React oder Angular dadurch schnell erlernbar
 
 +++
 
 ## Lernkurve
 
-* Gute Dokumentation
-* Doku ist klarer definiert als bei React
-* Viele Fragen lassen sich anhand der Doku schnell beantworten
+Gute Dokumentation
+Doku ist klarer definiert als bei React
+Viele Fragen lassen sich anhand der Doku schnell beantworten
 
 ---
 ## Code Style
 
-* Mix aus funktionaler und objektorientierter Programmierung
-* separiert HTML, JS und CSS. 
-* Bietet auch JSX-Style an
-* Komponenten-Lifecycle ist klar und intuitiv
+Mix aus funktionaler und objektorientierter Programmierung
+separiert HTML, JS und CSS. 
+Bietet auch JSX-Style an
+Komponenten-Lifecycle ist klar und intuitiv
 
 ---
 ## Single File Components
-* Single File Components sind in 3 Bereiche separiert:
+
+Single File Components sind in 3 Bereiche separiert:
 ```
 <template>, <script> und <style>
 ```
 jeder Bereich enthält den entsprechenden Code-Type
 
++++
+
+### <template>
+
+@snap[west span-40 text-center]
+```
+<template lang="pug">
+#app
+  template(v-for="item in items")
+    v-img(:src='item.image', height='200px')
+      .headline {{ item.count }} {{ item.headline }}
+        span.grey--text {{ item.subHeadline }}
+</template>
+```
+@snapend
+
+@snap[east span-40 text-center]
+pug Templates analog zu slim
+Two-Way Data Binding
+@snapend
+
++++
+
+### <script>
+@snap[west span-40 text-center]
+```
+<script>
+export default {
+  data: function () {
+    return {
+      post: { comments: []
+      },
+    }
+  },
+  components: {
+  },
+  created(){
+  },
+  methods: {
+  }
+}
+</script>
+```
+@snapend
+
+@snap[east span-40 text-center]
+
+verschiedene Hooks wie ``` created(), mounted(), destroyed() ```
+andere Components können integriert werden
+Methoden werden deklariert
+dazu gibt es noch weitere Direktiven wie ``` watch(), computed() ```
+
+@snapend
+
+
++++
 * als progressives Framework, Vue ist einfach anpassbar.
-* Mit einfachen Konfigurationen kann JSX anstellen von <template> genutzt werden
 * genauso verhält es sich auch dem <style>, durch das Attribut
 ```
 <style lang='scss'>
