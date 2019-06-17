@@ -192,7 +192,7 @@ Nativescript, Weex und Quasar
 ---
 ## Community
 
-* Die meisten Probleme werden bereits in der Dokumentation beantwortet
+wachsende Zahlen in relevanten Feldern
 
 +++
 
@@ -204,7 +204,7 @@ Nativescript, Weex und Quasar
 
 ### Stackoverflow-Tags History
 
-![Stackoverflow](assets/img/stackoverflow.png) { height: 500px !important; }
+![Stackoverflow](assets/img/stackoverflow.png) { height: 300px !important; }
 
 +++
 
