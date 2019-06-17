@@ -59,7 +59,7 @@ Single File Components sind in 3 Bereiche separiert:
 
 jeder Bereich enthält den entsprechenden Code-Type
 
----
++++
 
 @snap[north span-40]
 
@@ -69,13 +69,13 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 @snap[west span-40 text-center]
 ```
-<template lang="pug">
-#app
-  template(v-for="item in items")
-    v-img(:src='item.image', height='200px')
-      .headline {{ item.count }} {{ item.headline }}
-        span.grey--text {{ item.subHeadline }}
-</template>
+  <template lang="pug">
+  #app
+    template(v-for="item in items")
+      v-img(:src='item.image', height='200px')
+        .headline {{ item.count }} {{ item.headline }}
+          span.grey--text {{ item.subHeadline }}
+  </template>
 ```
 @snapend
 
@@ -89,21 +89,21 @@ Two-Way Data Binding
 ### <script>
 @snap[west span-40 text-center]
 ```
-<script>
-export default {
-  data: function () {
-    return {
-      post: { comments: []
-      },
+  <script>
+  export default {
+    data: function () {
+      return {
+        post: { comments: []
+        },
+      }
+    },
+    components: {
+    },
+    created(){
+    },
+    methods: {
     }
-  },
-  components: {
-  },
-  created(){
-  },
-  methods: {
   }
-}
 </script>
 ```
 @snapend
