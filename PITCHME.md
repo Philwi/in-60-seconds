@@ -213,7 +213,7 @@ Nativescript, Weex und Quasar
 
 ### NPM Packages
 
-![NPM](assets/img/npm.png) { height: 500px !important; }
+![NPM](assets/img/npm.png) { height: 400px !important; }
 
 ---
 ## Wie erwachsen ist VueJs
