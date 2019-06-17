@@ -192,9 +192,6 @@ Nativescript, Weex und Quasar
 ---
 ## Community
 
-* Bei Stackoverflow gibt es ~37000 tags mit #vue (React: ~144.000)
-* Es gibt ~15.500 npm Pakete bereit zum Installieren (React: ~41.000)
-* Bei Github hat das Vue Repository ~142.000 Sterne (React: ~131.000)
 * Die meisten Probleme werden bereits in der Dokumentation beantwortet
 
 +++
