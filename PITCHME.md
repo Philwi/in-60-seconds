@@ -198,19 +198,19 @@ wachsende Zahlen in relevanten Feldern
 
 ### Github Stars History
 
-![Github](assets/img/github.png) { height: 500px !important; }
+![Github](assets/img/github.png)
 
 +++
 
 ### Stackoverflow-Tags History
 
-![Stackoverflow](assets/img/stackoverflow.png) { height: 500px !important; }
+![Stackoverflow](assets/img/stackoverflow.png) 
 
 +++
 
 ### NPM Packages
 
-![NPM](assets/img/npm.png) { height: 500px !important; }
+![NPM](assets/img/npm.jpg)
 
 ---
 ## Wie erwachsen ist VueJs
