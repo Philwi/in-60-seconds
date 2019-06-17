@@ -209,6 +209,12 @@ Nativescript, Weex und Quasar
 
 ![Stackoverflow](assets/img/stackoverflow.png) { height: 500px !important; }
 
++++
+
+### NPM Packages
+
+![NPM](assets/img/npm.png) { height: 500px !important; }
+
 ---
 ## Wie erwachsen ist VueJs
 
