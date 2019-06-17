@@ -173,6 +173,8 @@ export const routes = [
 
 +++
 
+### Vue Router für das URL-Management
+
 ```
 router-link(to="/posts")
   | Index
@@ -181,8 +183,6 @@ router-view
 
 Beim Klick auf Index wird dann die Komponente Posts in router-view gerendered
 
-+++
-### Vue Server-Side Renderer
 ---
 
 ## Mobile
