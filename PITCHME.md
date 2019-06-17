@@ -2,7 +2,7 @@
 
 ---
 
-@snap[top]
+@snap[north span-40]
 ## Inhalt
 @snapend
 
