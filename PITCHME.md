@@ -162,7 +162,7 @@ const store = new Vuex.Store({
 })
 ```
 +++
-### Vue Router für das URL-Management innerhalb der App
+### Vue Router für das URL-Management
 
 ```javascript
 import Posts from '../components/posts/index.vue'
@@ -172,12 +172,14 @@ export const routes = [
 ```
 
 +++
+
 ```pug
-  router-link(to="/posts")
-    | Index
-  router-view
+router-link(to="/posts")
+  | Index
+router-view
 ```
-Beim Klick auf Index wird dann die Komponente Posts in ``` router-view ``` gerendered
+
+Beim Klick auf Index wird dann die Komponente Posts in router-view gerendered
 
 +++
 ### Vue Server-Side Renderer
