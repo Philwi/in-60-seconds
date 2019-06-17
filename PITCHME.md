@@ -173,7 +173,7 @@ export const routes = [
 
 +++
 
-```pug
+```
 router-link(to="/posts")
   | Index
 router-view
