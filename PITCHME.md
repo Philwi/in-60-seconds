@@ -8,20 +8,20 @@
 
 @snap[west span-40 text-center ul]
 
-* Lernkurve
-* Code Style
-* Single File Components
-* Performance
-* Flexibilität
+Lernkurve
+Code Style
+Single File Components
+Performance
+Flexibilität
 
 @snapend
 
 @snap[east span-40 text-center]
 
-* Mobile
-* Community
-* Wie erwachsen ist VueJS
-* Support
+Mobile
+Community
+Wie erwachsen ist VueJS
+Support
 
 @snapend
 
