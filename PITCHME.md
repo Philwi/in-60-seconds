@@ -201,7 +201,7 @@ Nativescript, Weex und Quasar
 
 ### Github Stars History
 
-![Performance](assets/img/github.png)
+![Performance](assets/img/github.png) { height: 600px; }
 
 ---
 ## Wie erwachsen ist VueJs
