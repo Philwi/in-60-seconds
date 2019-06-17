@@ -63,15 +63,7 @@ jeder Bereich enthält den entsprechenden Code-Type
 ### <template>
 
 @snap[west span-40 text-center]
-```pug
-  <template lang="pug">
-  #app
-    template(v-for="item in items")
-      v-img(:src='item.image', height='200px')
-        .headline {{ item.count }} {{ item.headline }}
-          span.grey--text {{ item.subHeadline }}
-  </template>
-```
+ hllo
 @snapend
 
 @snap[east span-40 text-center]
