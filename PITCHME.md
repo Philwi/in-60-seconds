@@ -210,7 +210,7 @@ wachsende Zahlen in relevanten Feldern
 
 ### NPM Packages
 
-![NPM](assets/img/npm.jpg)
+![NPM](assets/img/npm.jpeg)
 
 ---
 ## Wie erwachsen ist VueJs
