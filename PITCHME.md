@@ -60,13 +60,7 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 +++
 
-hallo
-
-@snap[north span-40]
-
 ### <template>
-
-@snapend
 
 @snap[west span-40 text-center]
 ```pug
