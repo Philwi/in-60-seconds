@@ -75,7 +75,6 @@ Two-Way Data Binding
 
 ### <script>
 @snap[west span-40 text-center]
-```
 @snapend
 
 @snap[east span-40 text-center]
