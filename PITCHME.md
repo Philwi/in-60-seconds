@@ -107,9 +107,6 @@ dazu gibt es noch weitere Direktiven wie ``` watch(), computed() ```
 @snapend
 
 @snap[west span-40 text-center]
-```
-<style>
-```
 @snapend
 
 @snap[east span-40 text-center]
