@@ -59,10 +59,6 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 +++
 
-
-heyhey
-
-
 @snap[north span-40]
 
 ### <template>
@@ -121,13 +117,21 @@ dazu gibt es noch weitere Direktiven wie ``` watch(), computed() ```
 
 
 +++
-* als progressives Framework, Vue ist einfach anpassbar.
-* genauso verhält es sich auch dem <style>, durch das Attribut
-```
-<style lang='scss'>
-```
-  kann Sass verwendet werden und nicht mehr das standardmäßige plain CSS
 
+@snap[north span-40 text-center]
+## <style>
+@snapend
+
+@snap[west span-40 text-center]
+```
+<style>
+```
+@snapend
+
+@snap[east span-40 text-center]
+Im Style der Komponente wird das CSS hinterlegt
+durch ``` <style lang="scss"> ``` können Stylesheet Scripte festgelegt und benutzt werden
+@snapend
 ---
 ## Performance
 
