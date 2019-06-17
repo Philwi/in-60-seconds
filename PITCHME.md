@@ -141,13 +141,14 @@ Größe der Vue-Bibliothek: 31KB
 
 ## Flexibilität
 
-Im Core sind die wichtigsten Bestandteile bereits integriert
+Im Core sind die wichtigsten Bestandteile bereits integriert  
 Darüber hinaus gibt es einige sinnvolle Erweiterungen
 
 +++
-### Vuex für das State-Management
 
-Es gibt einen zentralen Store
+### Vuex für das State-Management
+Es gibt einen zentralen Store  
+In diesem wird der Zustand der Anwendung gespeichert
 ```javascript
 const store = new Vuex.Store({
   state: {
@@ -162,6 +163,26 @@ const store = new Vuex.Store({
 ```
 +++
 ### Vue Router für das URL-Management innerhalb der App
+
+@snap[west span-40]
+```javascript
+import Posts from '../components/posts/index.vue'
+
+export const routes = [
+  { path: '/posts', component: Posts }
+```
+@snapend
+
+
+@snap[east span-40]
+```pug
+  router-link(to="/posts")
+    | Index
+  router-view
+```
+Beim Klick auf Index wird dann die Komponente Posts in ``` router-view ``` gerendered
+@snapend
+
 +++
 ### Vue Server-Side Renderer
 ---
