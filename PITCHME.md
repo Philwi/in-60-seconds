@@ -75,23 +75,6 @@ Two-Way Data Binding
 
 ### <script>
 @snap[west span-40 text-center]
-```javascript
-<script>
-export default {
-  data: function () {
-    return {
-      post: { comments: []
-      },
-    }
-  },
-  components: {
-  },
-  created(){
-  },
-  methods: {
-  }
-}
-</script>
 ```
 @snapend
 
