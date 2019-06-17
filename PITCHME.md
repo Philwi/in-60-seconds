@@ -62,43 +62,51 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 ### <template>
 
-@snap[west span-40 text-center]
- hllo
-@snapend
+```pug
+  <template lang="pug">
+  #app
+    template(v-for="item in items")
+      v-img(:src='item.image', height='200px')
+        .headline {{ item.count }} {{ item.headline }}
+          span.grey--text {{ item.subHeadline }}
+  </template>
+```
 
-@snap[east span-40 text-center]
 pug Templates analog zu slim
 Two-Way Data Binding
-@snapend
 
 +++
 
 ### <script>
-@snap[west span-40 text-center]
-@snapend
-
-@snap[east span-40 text-center]
-
-
-@snapend
-
+```javascript
+<script>
+export default {
+  data: function () {
+    return {
+      post: { comments: []
+      },
+    }
+  },
+  components: {
+  },
+  created(){
+  },
+  methods: {
+  }
+}
+</script>
+```
 
 +++
 
-@snap[north span-40 text-center]
 ## <style>
-@snapend
 
-@snap[west span-40 text-center]
 ```
 <style>
 ```
-@snapend
 
-@snap[east span-40 text-center]
 Im Style der Komponente wird das CSS hinterlegt
 durch ``` <style lang="scss"> ``` kann man  
-@snapend
 
 ---
 
