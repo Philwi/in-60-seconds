@@ -198,7 +198,7 @@ wachsende Zahlen in relevanten Feldern
 
 ### Github Stars History
 
-![Github](assets/img/github.png) { height: 500px !important; }
+![Github](assets/img/github.png) { height: 300px !important; }
 
 +++
 
@@ -210,7 +210,7 @@ wachsende Zahlen in relevanten Feldern
 
 ### NPM Packages
 
-![NPM](assets/img/npm.png) { height: 400px !important; }
+![NPM](assets/img/npm.png) { height: 300px !important; }
 
 ---
 ## Wie erwachsen ist VueJs
