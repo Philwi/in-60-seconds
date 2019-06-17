@@ -55,14 +55,16 @@ Single File Components sind in 3 Bereiche separiert:
 ```
 <template>, <script> und <style>
 ```
-jeder Bereich enthält den entsprechenden Code-Type
 
 +++
 
+@snap[north span-40]
 
 ### <template>
 
+@snapend
 
+@snap[west span-40 text-center]
 ```
 <template lang="pug">
 #app
@@ -72,9 +74,12 @@ jeder Bereich enthält den entsprechenden Code-Type
         span.grey--text {{ item.subHeadline }}
 </template>
 ```
+@snapend
 
+@snap[east span-40 text-center]
 pug Templates analog zu slim
 Two-Way Data Binding
+@snapend
 
 +++
 
