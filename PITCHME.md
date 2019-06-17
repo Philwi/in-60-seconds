@@ -52,9 +52,8 @@ Komponenten-Lifecycle ist klar und intuitiv
 ## Single File Components
 
 Single File Components sind in 3 Bereiche separiert:
-
-```
-  <template>, <script> und <style>
+```javascript
+<template>, <script> und <style>
 ```
 
 jeder Bereich enthält den entsprechenden Code-Type
@@ -70,7 +69,7 @@ hallo
 @snapend
 
 @snap[west span-40 text-center]
-```
+```pug
   <template lang="pug">
   #app
     template(v-for="item in items")
@@ -90,7 +89,7 @@ Two-Way Data Binding
 
 ### <script>
 @snap[west span-40 text-center]
-```
+```javascript
 <script>
 export default {
   data: function () {
