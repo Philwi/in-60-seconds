@@ -6,7 +6,7 @@
 ## Inhalt
 @snapend
 
-@snap[west span-40 text-center ul]
+@snap[west span-40 text-center]
 
 Lernkurve
 Code Style
@@ -20,7 +20,7 @@ Flexibilität
 
 Mobile
 Community
-Wie erwachsen ist VueJS
+Maturity
 Support
 
 @snapend
@@ -59,7 +59,11 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 +++
 
+@snap[north span-40]
+
 ### <template>
+
+@snapend
 
 @snap[west span-40 text-center]
 ```
