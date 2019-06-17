@@ -135,7 +135,9 @@ durch ``` <style lang="scss"> ``` kann man
 
 ---
 
+@snap[north span-40 text-center]
 ## Performance
+@snapend
 
 @snap[west span-40 text-center]
 Größe der Vue-Bibliothek: 31KB
