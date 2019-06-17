@@ -165,6 +165,7 @@ const store = new Vuex.Store({
 ### Vue Router für das URL-Management innerhalb der App
 
 @snap[west span-40]
+
 ```javascript
 import Posts from '../components/posts/index.vue'
 
@@ -175,6 +176,7 @@ export const routes = [
 
 
 @snap[east span-40]
+
 ```pug
   router-link(to="/posts")
     | Index
