@@ -144,7 +144,6 @@ Größe der Vue-Bibliothek: 31KB
 Im Core sind die wichtigsten Bestandteile bereits integriert  
 Darüber hinaus gibt es einige sinnvolle Erweiterungen
 
-+++
 
 ### Vuex für das State-Management
 Es gibt einen zentralen Store  
@@ -187,8 +186,9 @@ Beim Klick auf Index wird dann die Komponente Posts in router-view gerendered
 
 ## Mobile
 
-* es gibt mehrere Optionen um Native Apps mit Vue zu bauen. Es gibt jedoch keinen klaren Marktführer.
-* NativeScript, Weex und Quasar sind da zu nennen
+Mehrere Optionen Native Apps zu bauen
+Nativescript, Weex und Quasar 
+
 ---
 ## Community
 
@@ -196,6 +196,12 @@ Beim Klick auf Index wird dann die Komponente Posts in router-view gerendered
 * Es gibt ~15.500 npm Pakete bereit zum Installieren (React: ~41.000)
 * Bei Github hat das Vue Repository ~142.000 Sterne (React: ~131.000)
 * Die meisten Probleme werden bereits in der Dokumentation beantwortet
+
++++
+
+### Github Stars History
+
+![Performance](assets/img/github.png)
 
 ---
 ## Wie erwachsen ist VueJs
