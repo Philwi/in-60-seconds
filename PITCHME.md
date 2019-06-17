@@ -65,9 +65,6 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 ### <template>
 
-@snapend
-
-@snap[west span-40 text-center]
 ```
   <template lang="pug">
   #app
@@ -88,6 +85,24 @@ Two-Way Data Binding
 
 ### <script>
 @snap[west span-40 text-center]
+```
+<script>
+export default {
+  data: function () {
+    return {
+      post: { comments: []
+      },
+    }
+  },
+  components: {
+  },
+  created(){
+  },
+  methods: {
+  }
+}
+</script>
+```
 @snapend
 
 @snap[east span-40 text-center]
@@ -107,6 +122,9 @@ dazu gibt es noch weitere Direktiven wie ``` watch(), computed() ```
 @snapend
 
 @snap[west span-40 text-center]
+```
+<style>
+```
 @snapend
 
 @snap[east span-40 text-center]
