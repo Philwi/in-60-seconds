@@ -61,7 +61,7 @@ jeder Bereich enthält den entsprechenden Code-Type
 +++
 
 ### template
-```pug
+```
 <template lang="pug">
 #app
   template(v-for="item in items")
@@ -75,8 +75,11 @@ pug Templates analog zu slim
 Two-Way Data Binding
 
 +++
-
+@snap[north span-40]
 ### script
+@snapend
+
+snap[east span-40]
 ```javascript
 <script>
 export default {
@@ -95,10 +98,11 @@ export default {
 }
 </script>
 ```
+@snapend
 
 +++
 
-## <style>
+## style
 
 ```
 <style>
