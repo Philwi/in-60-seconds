@@ -373,7 +373,7 @@ def response
 
 +++ 
 ### VueJS template mit Pug
-```pug
+```
 <template lang="pug">
 #app
   v-layout(row='', wrap='')
