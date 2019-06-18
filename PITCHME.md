@@ -22,6 +22,7 @@ Mobile
 Community
 Maturity
 Support
+Matestack
 
 @snapend
 
@@ -82,8 +83,13 @@ Two-Way Data Binding
 export default {
   data: function () {
     return {
-      post: { comments: []
-      },
+      items: [ {
+          image: 'url', 
+          headline: 'headline', 
+          subheadline: 'subheadline', 
+          count: 5 
+        }
+      ]
     }
   },
   components: {
@@ -129,7 +135,7 @@ Darüber hinaus gibt es einige sinnvolle Erweiterungen
 +++
 ### Vuex für das State-Management
 Es gibt einen zentralen Store  
-In diesem wird der Zustand der Anwendung gespeichert
+in diesem wird der Zustand der Anwendung gespeichert
 ```javascript
 const store = new Vuex.Store({
   state: {
@@ -168,13 +174,13 @@ Beim Klick auf Index wird dann die Komponente Posts in router-view gerendered
 
 ## Mobile
 
-Mehrere Optionen Native Apps zu bauen
+Mehrere Optionen Native Apps zu erstellen:
 Nativescript, Weex und Quasar 
 
 ---
 ## Community
 
-wachsende Zahlen in relevanten Feldern
+wachsende Zahlen
 
 +++
 
@@ -198,7 +204,9 @@ wachsende Zahlen in relevanten Feldern
 ## VueJS Production Ready?
 
 Vue wurde im Feburar 2014 released
-Vue wird laut SimiliarTech von ~75.000 unique Domains verwendet (React: ~263.000)
+und wird laut SimiliarTech von ~75.000 unique Domains verwendet (React: ~263.000)
+
++++
 
 ## VueJS Production Ready?
 Vue wird unter anderem von folgenden Unternehmen verwendet:
@@ -211,9 +219,8 @@ Nintendo
 
 ## Support
 
-Vue ist eine unabhängige Bibliothek
 23 Entwickler im Vue Team
-Roadmap kann im Github-Repository eingesehen werden
+Roadmap für nächste Versionen kann im Github-Repository eingesehen werden
 
 ---
 ## Zusammenfassung
@@ -221,52 +228,63 @@ Roadmap kann im Github-Repository eingesehen werden
 ---
 ## Pros
 
-* Vue's Kernmodul funktionieren sehr gut
+* Vue's Kernmodule funktionieren sehr gut
+* Dokumentation
+* Data Binding
 * Schnelle Einarbeitung
 * FEDs und BEDs können sich gut und schnell zurechtfinden
 
 ---
 ## Cons
 
-* weniger Plugins und Tools als bei React oder Angular
+* weniger Plugins und Tools als bei React
 * kleinere Community
 
 ---
-## Single File Components
+
+## Matestack
+
+VueJS schreiben mit Ruby Code
 
 +++
-Components können genutzt werden um gekapselte Funktionalitäten zu erstellen 
+### SPA
 
-+++
-Components können in andere Components geladen werden und verhalten sich wie Partials
+```ruby
+class Apps::MyApp < App::Cell::App
+  def response
+    components{
+      header do
+        heading size: 1, text: "My App"
+      end
+      nav do
+        transition path: :my_first_page_path do
+          button text: "Page 1"
+        end
+        transition path: :my_second_page_path do
+          button text: "Page 2"
+        end
+      end
+      main do
+        page_content #pages are dynamically yielded here, when buttons are clicked!
+      end
+      footer do
+        plain "That's it!"
+      end
+    }
+  end
+end
+```
 
-+++
-Mit Vue Router können Seitenaufrufe gehandelt werden
+### Components
 
-+++
+```ruby 
+class Pages::MyApp::MyFirstPage < Page::Cell::Page
+  def response
+    components{
+      div id: "div-on-page-1" do
+        plain "My First Page"
+      end
+    }
+  end
+end
 ```
-router-view
-```
-ermöglicht es die Components zu rendern.
-+++
-Im route.js werden die Routes deklariert
-```
-export const routes = [
-  { path: '/dashboard', component: Dashboard, children: [
-    { path: '/dashboard/posts/index', component: Posts },
-  ]},
-];
-```
-
-+++
-Die Child-Component Posts wird im Dashboard mit 
-```
-router-view
-```
-wiederum geladen
-+++
-Es kann mehrere Child-Components geben. Diese können wiederum Child-Components besitzen
-+++
-Um den State einer App handhaben zu können, wird Vuex genutzt
- 
----
