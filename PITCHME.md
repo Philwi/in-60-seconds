@@ -62,13 +62,11 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 ### <template>
 ```pug
-<template lang="pug">
   #app
     template(v-for="item in items")
       v-img(:src='item.image', height='200px')
         .headline {{ item.count }} {{ item.headline }}
           span.grey--text {{ item.subHeadline }}
-</template>
 ```
 
 pug Templates analog zu slim
