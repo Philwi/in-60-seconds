@@ -61,7 +61,6 @@ jeder Bereich enthält den entsprechenden Code-Type
 +++
 
 ### <template>
-@snap[west span-40 text-center]
 ```pug
   <template lang="pug">
   #app
@@ -71,17 +70,13 @@ jeder Bereich enthält den entsprechenden Code-Type
           span.grey--text {{ item.subHeadline }}
   </template>
 ```
-@snapend
 
-@snap[east span-40 text-center]
 pug Templates analog zu slim
 Two-Way Data Binding
-@snapend
 
 +++
 
 ### <script>
-@snap[west span-40 text-center]
 ```javascript
 <script>
 export default {
@@ -100,30 +95,17 @@ export default {
 }
 </script>
 ```
-@snapend
-
-@snap[east span-40 text-center]
-
-
-@snapend
-
 
 +++
 
-@snap[north span-40 text-center]
 ## <style>
-@snapend
 
-@snap[west span-40 text-center]
 ```
 <style>
 ```
-@snapend
 
-@snap[east span-40 text-center]
 Im Style der Komponente wird das CSS hinterlegt
 durch ``` <style lang="scss"> ``` kann man  
-@snapend
 
 ---
 
@@ -213,21 +195,25 @@ wachsende Zahlen in relevanten Feldern
 ![NPM](assets/img/npm.jpeg)
 
 ---
-## Wie erwachsen ist VueJs
+## VueJS Production Ready?
 
-* Vue wurde im Feburar 2014 released
-* Vue wird laut SimiliarTech von ~75.000 Domains verwendet (React: ~263.000)
-* Vue wird unter anderem von folgenden Unternehmen verwendet:
-  * 9GAG
-  * Gitlab
-  * Grammarly
-  * Nintendo
+Vue wurde im Feburar 2014 released
+Vue wird laut SimiliarTech von ~75.000 unique Domains verwendet (React: ~263.000)
+
+## VueJS Production Ready?
+Vue wird unter anderem von folgenden Unternehmen verwendet:
+
+9GAG  
+Gitlab  
+Grammarly  
+Nintendo  
 ---
+
 ## Support
 
-* Vue ist eine unabhängige Bibliothek
-* Das Vue-Team hat 23 Entwickler
-* Die Vue Roadmap kann im Github-Repository eingesehen werden
+Vue ist eine unabhängige Bibliothek
+23 Entwickler im Vue Team
+Roadmap kann im Github-Repository eingesehen werden
 
 ---
 ## Zusammenfassung
@@ -235,7 +221,7 @@ wachsende Zahlen in relevanten Feldern
 ---
 ## Pros
 
-* Vue's Kernmodule (Vuex, Router, usw.) sind integriert und funktionieren sehr gut
+* Vue's Kernmodul funktionieren sehr gut
 * Schnelle Einarbeitung
 * FEDs und BEDs können sich gut und schnell zurechtfinden
 
