@@ -60,7 +60,7 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 +++
 
-### <template>
+### template
 ```
   #app
     template(v-for="item in items")
