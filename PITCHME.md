@@ -61,7 +61,7 @@ jeder Bereich enthält den entsprechenden Code-Type
 +++
 
 ### <template>
-```pug
+```
   #app
     template(v-for="item in items")
       v-img(:src='item.image', height='200px')
