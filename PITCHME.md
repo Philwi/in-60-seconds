@@ -58,14 +58,17 @@ Single File Components sind in 3 Bereiche separiert:
 
 jeder Bereich enthält den entsprechenden Code-Type
 
----
++++
 
-### template
-```
-  template(v-for="item in items")
-    v-img(:src='item.image', height='200px')
-      .headline {{ item.count }} {{ item.headline }}
-        span.grey--text {{ item.subHeadline }}
+### <template>
+```pug
+<template lang="pug">
+  #app
+    template(v-for="item in items")
+      v-img(:src='item.image', height='200px')
+        .headline {{ item.count }} {{ item.headline }}
+          span.grey--text {{ item.subHeadline }}
+</template>
 ```
 
 pug Templates analog zu slim
@@ -73,9 +76,22 @@ Two-Way Data Binding
 
 +++
 
-### script
-```
-awfwadfw
+### <script>
+```javascript
+export default {
+  data: function () {
+    return {
+      post: { comments: []
+      },
+    }
+  },
+  components: {
+  },
+  created(){
+  },
+  methods: {
+  }
+}
 ```
 
 +++
