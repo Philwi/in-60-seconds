@@ -294,19 +294,22 @@ end
 +++
 ### Pros
 
-ruby
-Datenaustausch zwischen Backend und Frontend sehr einfach
-Cells
-Kommunikation mit Matestack-Entwicklern über Gitter 
-
+@snap[text-left]
+ruby  
+Datenaustausch zwischen Backend und Frontend sehr einfach  
+Cells  
+Kommunikation mit Matestack-Entwicklern über Gitter  
+@snapend
 +++
 
 ### Cons
 
-noch nicht möglich VueJS 'Gems' einzubinden
-es können keine child Components gerenderd werden
-Webpacker-Integration fehlt noch
-bisher nur für kleine und einfache Anwendungen sinnvoll
+@snap[text-left]
+noch nicht möglich VueJS 'Gems' einzubinden  
+es können keine child Components gerenderd werden  
+Webpacker-Integration fehlt noch  
+bisher nur für kleine und einfache Anwendungen sinnvoll  
+@snapend
 
 +++
 ### Matestack View Method
