@@ -58,16 +58,16 @@ Single File Components sind in 3 Bereiche separiert:
 
 jeder Bereich enthält den entsprechenden Code-Type
 
----
++++
 
 ### template
-```
-<template lang="pug>
-  #app
-    template(v-for="item in items")
-      v-img(:src='item.image', height='200px')
-        .headline {{ item.count }} {{ item.headline }}
-          span.grey--text {{ item.subHeadline }}
+```pug
+<template lang="pug">
+#app
+  template(v-for="item in items")
+    v-img(:src='item.image', height='200px')
+      .headline {{ item.count }} {{ item.headline }}
+        span.grey--text {{ item.subHeadline }}
 </template>
 ```
 
@@ -78,11 +78,27 @@ Two-Way Data Binding
 
 ### script
 ```javascript
+<script>
+export default {
+  data: function () {
+    return {
+      post: { comments: []
+      },
+    }
+  },
+  components: {
+  },
+  created(){
+  },
+  methods: {
+  }
+}
+</script>
 ```
 
 +++
 
-## style
+## <style>
 
 ```
 <style>
