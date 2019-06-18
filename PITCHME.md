@@ -75,11 +75,7 @@ pug Templates analog zu slim
 Two-Way Data Binding
 
 +++
-@snap[north span-40]
 ### script
-@snapend
-
-@snap[west span-70]
 
 ```javascript
 <script>
@@ -99,7 +95,6 @@ export default {
 }
 </script>
 ```
-@snapend
 
 +++
 
@@ -110,7 +105,7 @@ export default {
 ```
 
 Im Style der Komponente wird das CSS hinterlegt
-durch ``` <style lang="scss"> ``` kann man  
+durch ``` <style lang="scss"> ``` kann eine beliebige Stylesheet-Sprache ausgewählt werden  
 
 ---
 
