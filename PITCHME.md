@@ -74,7 +74,7 @@ Two-Way Data Binding
 +++
 
 ### <script>
-```javascript
+```
 export default {
   data: function () {
     return {
