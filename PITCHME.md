@@ -60,7 +60,7 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 ---
 
-### <template>
+### template
 ```
   template(v-for="item in items")
     v-img(:src='item.image', height='200px')
@@ -73,7 +73,7 @@ Two-Way Data Binding
 
 +++
 
-### <script>
+### script
 ```
 export default {
   data: function () {
