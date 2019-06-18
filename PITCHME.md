@@ -58,7 +58,7 @@ Single File Components sind in 3 Bereiche separiert:
 
 jeder Bereich enthält den entsprechenden Code-Type
 
-+++
+---
 
 ### template
 ```
@@ -74,13 +74,13 @@ Two-Way Data Binding
 
 +++
 
-### <script>
+### script
 ```javascript
 ```
 
 +++
 
-## <style>
+## style
 
 ```
 <style>
