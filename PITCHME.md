@@ -211,10 +211,12 @@ und wird laut SimiliarTech von ~75.000 unique Domains verwendet (React: ~263.000
 ## VueJS Production Ready?
 Vue wird unter anderem von folgenden Unternehmen verwendet:
 
-9GAG  
-Gitlab  
-Grammarly  
-Nintendo  
+@ol
+- 9GAG  
+- Gitlab  
+- Grammarly  
+- Nintendo  
+@olend
 ---
 
 ## Support
