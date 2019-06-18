@@ -109,7 +109,7 @@ durch ``` <style lang="scss"> ``` kann eine beliebige Stylesheet-Sprache ausgew�
 
 ---
 
-@snap[west span-40 text-center]
+@snap[west span-60 text-center]
 ## Performance
 
 Größe der Vue-Bibliothek: 31KB
@@ -126,7 +126,7 @@ Größe der Vue-Bibliothek: 31KB
 Im Core sind die wichtigsten Bestandteile bereits integriert  
 Darüber hinaus gibt es einige sinnvolle Erweiterungen
 
-
++++
 ### Vuex für das State-Management
 Es gibt einen zentralen Store  
 In diesem wird der Zustand der Anwendung gespeichert
