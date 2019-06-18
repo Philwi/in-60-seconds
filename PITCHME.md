@@ -246,7 +246,7 @@ Roadmap für nächste Versionen kann im Github-Repository eingesehen werden
 
 ## Matestack
 
-VueJS in Ruby Code
+VueJS in pure ruby code
 
 +++
 ### SPA
