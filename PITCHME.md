@@ -79,7 +79,8 @@ Two-Way Data Binding
 ### script
 @snapend
 
-@snap[east span-40]
+@snap[west span-70]
+
 ```javascript
 <script>
 export default {
