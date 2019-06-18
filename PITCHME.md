@@ -291,7 +291,7 @@ class Pages::MyApp::MyFirstPage < Page::Cell::Page
   end
 end
 ```
-
++++
 ### Pros
 
 - ruby
@@ -371,7 +371,8 @@ def response
   # sub-components funktionieren noch nicht mit 0.6 erst mit 0.7
 ```
 
-+++ VueJS template mit Pug
++++ 
+### VueJS template mit Pug
 ```javascript
 <template lang="pug">
 #app
