@@ -291,3 +291,106 @@ class Pages::MyApp::MyFirstPage < Page::Cell::Page
   end
 end
 ```
+
+### Pros
+
+- ruby
+- Datenaustausch zwischen Backend und Frontend sehr einfach
+- Cells
+- Kommunikation mit Matestack-Entwicklern über Gitter 
+
++++
+
+### Cons
+
+- noch nicht möglich VueJS 'Gems' einzubinden
+- es können keine child Components gerenderd werden
+- Webpacker-Integration fehlt noch
+- bisher nur für kleine und einfache Anwendungen sinnvoll
+
++++
+### Matestack View Method
+
+```ruby
+def response
+  components {
+    div class: 'row' do
+      div class: "offset-md-4"
+      div class: "col-md-4" do
+        div class: "card", id: "post-card" do
+          img class: "card-img-top", path: 'posts.jpg'
+          div class: "card-body" do
+            heading size: 4, class: "card-title", text: post.title
+            div class: "card-text" do
+              plain post.text
+            end
+            br
+            div class: 'row' do
+              div class: "col-md-3" do
+                onclick emit: "display_comments" do
+                  div class: "card-text post-card-comments" do
+                    plain "#{comments.count} Kommentare"
+                  end
+                end
+              end
+              div class: "col-md-9" do
+                onclick emit: "create_comment" do
+                  div class: "card-text post-card-create-comment" do
+                    plain "Kommentar erstellen"
+                  end
+                end
+              end
+            end
+            div class: "post-card-bottem-right-created-at" do
+              plain timeago_tag post.created_at, format: "%d.%m.%Y"
+            end
+          end
+        end
+      end
+    end
+    div class: 'row' do
+      div class: "offset-md-4"
+      div class: "col-md-4" do
+        async show_on: "display_comments" do
+          comments.each do |c|
+            partial :comment_item, c
+          end
+        end
+      end
+    end
+    div class: 'row' do
+      div class: "offset-md-4"
+      div class: "col-md-4" do
+        async show_on: "create_comment" do
+            partial :create_comment
+          end
+        end
+      end
+    end
+  end
+  # sub-components funktionieren noch nicht mit 0.6 erst mit 0.7
+```
+
++++ VueJS template mit Pug
+```javascript
+<template lang="pug">
+#app
+  v-layout(row='', wrap='')
+    v-flex(xs12='', sm6='', offset-sm3='')
+      v-card
+        v-img(src='https://picsum.photos/500', height='200px')
+        v-card-title(primary-title='')
+          div
+            .headline {{ post.title }}
+            span.grey--text {{ post.text }}
+        v-card-actions
+          v-btn(flat='', color='purple', @click="comments = !comments") 
+            | {{ post.comments.length }} Kommentare
+          v-spacer
+      div(v-if="comments")
+        template(v-for="(comment, index) in post.comments")
+          comment-show(:key="comment.id", :text="comment.text", :name="comment.name", :createdAt="comment.createdAt")
+          template(v-if="index == post.comments.length - 1")
+            comment-create(:postId="id", @commentCreated="setCommentToPost")
+</template>
+```
