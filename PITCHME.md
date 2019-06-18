@@ -62,12 +62,8 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 ### template
 ```
-  template(v-for="item in items")
-    v-img(:src='item.image', height='200px')
-      .headline {{ item.count }} {{ item.headline }}
-        span.grey--text {{ item.subHeadline }}
+wadawd
 ```
-
 pug Templates analog zu slim
 Two-Way Data Binding
 
@@ -75,20 +71,7 @@ Two-Way Data Binding
 
 ### script
 ```
-export default {
-  data: function () {
-    return {
-      post: { comments: []
-      },
-    }
-  },
-  components: {
-  },
-  created(){
-  },
-  methods: {
-  }
-}
+awfwadfw
 ```
 
 +++
