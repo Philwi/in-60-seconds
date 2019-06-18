@@ -62,8 +62,12 @@ jeder Bereich enthält den entsprechenden Code-Type
 
 ### template
 ```
-wadawd
+  template(v-for="item in items")
+    v-img(:src='item.image', height='200px')
+      .headline {{ item.count }} {{ item.headline }}
+        span.grey--text {{ item.subHeadline }}
 ```
+
 pug Templates analog zu slim
 Two-Way Data Binding
 
