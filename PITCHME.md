@@ -246,7 +246,7 @@ Roadmap für nächste Versionen kann im Github-Repository eingesehen werden
 
 ## Matestack
 
-VueJS schreiben mit Ruby Code
+VueJS in Ruby Code
 
 +++
 ### SPA
@@ -276,6 +276,7 @@ class Apps::MyApp < App::Cell::App
   end
 end
 ```
++++
 
 ### Components
 
